@@ -2,6 +2,8 @@
 using namespace std;
 
 int main(){
-int ;
+int codigo, notas, promedio;
+string estudiante;
+
     return 0;
 }

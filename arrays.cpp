@@ -48,21 +48,21 @@ cin>>numero[20];
     cout<<"Ingrese un numero para buscar "<<endl;
     cin>>buscar;
     i--;
-    if ((numero || buscar))
+    if ((numero[20] == buscar)||(buscar > 1 && buscar < 20))
 
-        for (int i = numero[20]; i <= 20; i--)
+        for (int i = numero[20]; i <= 20; i++)
         {
     {
-    cout<<"El numero que ingreso si esta en los numeros digitados antes "<<buscar<<endl;
+    cout<<"El numero que ingreso si esta en los numeros digitados antes: "<<buscar<<endl;
     }
     }   
-    else if (buscar > 1 && buscar < 20)
+    else if (buscar != 0)
     {
-    cout<<"El numero que ingreso no esta en los numeros digitados antes "<<buscar<<endl;
+    cout<<"El numero que ingreso no esta en los numeros digitados antes: "<<buscar<<endl;
     }
     else
     {
-    cout<<"El numero que ingreso es 0"<<buscar<<endl;
+    cout<<"El numero que ingreso es 0: "<<buscar<<endl;
     }
 
     return 0;

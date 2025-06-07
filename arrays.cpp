@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int numero[20], buscar;
+    int numero[20], buscar, i = 0;
 
     for (int i = 0; i < 20; i++)
     {
@@ -13,14 +13,8 @@ int main()
 
     cout << "Ingrese un numero para buscar " <<endl;
     cin >> buscar;
-
-    for (int i = 0; i < 0; i++)
-    {
-        /* code */
-    }
     
-
-    if ((numero[20] == buscar) || (buscar > 1 && buscar < 20))
+    if ((numero[0] == buscar) || (buscar > 1 && buscar < 20))
 
         for (int i = numero[20]; i <= 20; i++)
         {
